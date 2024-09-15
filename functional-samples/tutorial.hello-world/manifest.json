@@ -1,10 +1,14 @@
 {
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
-  "version": "1.0",
   "manifest_version": 3,
+  "name": "FNF Mods Showcase",
+  "version": "1.0",
+  "description": "A Chrome extension showcasing 5 FNF mods.",
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [],
+  "icons": {
+    "48": "icon.png"
   }
 }
